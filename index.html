@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Speech Text Reader</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Speech Text Reader</h1>
+        <button class="btn btn-toggle" id='toggle'>Toggle Text Box</button>
+        <button class="btn btn-default-voice" id='default-voice'>Set en-US</button>
+        <div class="text-reader">
+            <div id="close" class="close">X</div>
+            <form class="custom-text-form" id="custom-text-form" action="#">
+                <h3 for="language">Choose Voice</h3>
+                <select name="language" id="language"></select>
+                <textarea placeholder="Enter text to read..." name="text" id="text">
+          </textarea>
+                <button class="btn" id="read-btn" type="submit">Read Text</button>
+            </form>
+        </div>
+        <main></main>
+    </div>
+
+    <img src="" alt="">
+    <p class="info"></p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
